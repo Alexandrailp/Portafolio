@@ -89,3 +89,7 @@ El sitio se adapta completamente a:
 
 ---
 
+## Fork y commits 
+
+![fork1](./assets/img/Fork1.png)
+![fork2](./assets/img/Fork2.png)
