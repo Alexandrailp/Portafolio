@@ -1,0 +1,80 @@
+body{
+  background-color: #212529;
+}
+.hero{
+  height: 100vh;
+  background-image: url("../img/foto-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 1;
+}
+
+.hero-content{
+  position: relative;
+  z-index: 2;
+  color: white;
+  max-width: 600px;
+}
+
+.hero h1{
+  font-size: 3rem;
+}
+
+.hero p{
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px){
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+.custom-accordion .accordion-item{
+  background-color: #2b3035;
+  border: none;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-accordion .accordion-button{
+  background-color: #2b3035;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  box-shadow: none;
+  padding: 1.2rem;
+}
+
+.custom-accordion .accordion-button:not(.collapsed){
+  background-color: #343a40;
+  color: #fff;
+}
+
+.custom-accordion .accordion-body{
+  background-color: #343a40;
+  color: #d1d1d1;
+  padding: 1.2rem 1.5rem;
+  line-height: 1.6;
+}
+
+.custom-accordion .accordion-button:hover{
+  background-color: #383f45;
+  transition: 0.2s ease;
+}
+
