@@ -123,35 +123,55 @@
         </div>
         </div>      
     </section>
-    <section class="portfolio" id="portfolio">
-        <h2 class="fw-bold text-center text-white mb-5">Portafolio</h2>
-        <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="assets/img/proyecto1.png" class="d-block carousel-img" alt="Proyecto-1">
+    <section class="portfolio-section py-5" id="portfolio">
+        <div class="container">
+            <h2 class="fw-bold text-center text-white mb-5">Portafolio</h2>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modalProyecto1">
+                        <img src="assets/img/proyecto1.png" alt="Proyecto 1">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modalProyecto2">
+                        <img src="assets/img/proyecto2.png" alt="Proyecto 2">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modalProyecto3">
+                        <img src="assets/img/proyecto3.png" alt="Proyecto 3">
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-            <img src="assets/img/proyecto2.png" class="d-block carousel-img" alt="Proyecto-2">
-            </div>
-            <div class="carousel-item">
-            <img src="assets/img/proyecto3.png" class="d-block carousel-img" alt="Proyecto-3">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
         </div>
     </section>
+    <div class="modal fade" id="modalProyecto1" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <img src="assets/img/proyecto1.png" class="img-fluid" alt="Proyecto-1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalProyecto2" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <img src="assets/img/proyecto2.png" class="img-fluid" alt="Proyecto-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalProyecto3" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <img src="assets/img/proyecto3.png" class="img-fluid" alt="Proyecto-3">
+                </div>
+            </div>
+        </div>
+    </div>
     <section id="contacto" class="contact-section py-5">
         <div class="container">
             <h2 class="fw-bold text-center text-white mb-4">Contáctame</h2>
@@ -159,14 +179,12 @@
             <p class="text-center text-white-50 mb-5">
                 Si deseas más información sobre mi trabajo o coordinar un proyecto, puedes comunicarte conmigo a través de los siguientes canales:
             </p>
-
             <div class="row justify-content-center text-center">
                 <div class="col-md-4 mb-4">
                     <i class="fas fa-envelope fa-2x text-white mb-3"></i>
                     <p class="text-white mb-0">Correo</p>
                     <a href="mailto:tu-correo@example.com" class="text-white-50">alexandrailp.r@gmail.com</a>
                 </div>
-
                 <div class="col-md-4 mb-4">
                     <i class="fab fa-linkedin fa-2x text-white mb-3"></i>
                     <p class="text-white mb-0">LinkedIn</p>
@@ -174,7 +192,6 @@
                         linkedin.com/in/alexandrailp
                     </a>
                 </div>
-
                 <div class="col-md-4 mb-4">
                     <i class="fas fa-phone fa-2x text-white mb-3"></i>
                     <p class="text-white mb-0">Teléfono</p>

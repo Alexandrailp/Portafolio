@@ -78,16 +78,40 @@ body{
   transition: 0.2s ease;
 }
 
-.carousel-img{
-    width: 40%; 
-    max-height: 450px;       
-    margin: 0 auto;
-    object-fit: contain;
-    transition: transform .4s ease;
+.portfolio-item{
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
-.carousel-inner{
-    padding: 20px 0;
+.portfolio-item img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.portfolio-item:hover img{
+    transform: scale(1.07);
+    opacity: 0.85;
+}
+
+.modal-content{
+    border: none;
+}
+
+.modal-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0%;
+}
+
+.modal-body img{
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
 }
 
 .contact-section i{
@@ -99,7 +123,6 @@ body{
     transform: scale(1.1);
     opacity: 1;
 }
-
 .contact-section a{
     text-decoration: none;
     transition: 0.3s ease;
@@ -108,3 +131,4 @@ body{
 .contact-section a:hover{
     color: #ffffff;
 }
+
