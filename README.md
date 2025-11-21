@@ -27,8 +27,6 @@ Incluye ajustes especiales para:
 - Slider centrado en todos los tamaños
 - Sección portafolio responsiva con grid adaptable
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
 ## 📌 Secciones principales
 
 ### **1. Inicio / Header**
@@ -45,7 +43,7 @@ Texto destacado como:
 
 ### **4. Portafolio**
 Galería responsive de proyectos (con grid flexible).  
-- Slider centrado, con imágenes que mantienen su proporción y no se deforman en mobile.
+- Grid centrado, con imágenes que mantienen su proporción y no se deforman en mobile.
 - Sección minimalista con íconos obtenidos en FontAwesome
 
 ## 🧩 Tecnologías utilizadas
@@ -56,7 +54,7 @@ Galería responsive de proyectos (con grid flexible).
 | **CSS3** | Estilos personalizados |
 | **Bootstrap 5** | Grillas, navbar, layout responsive |
 | **FontAwesome** | Iconografía minimalista |
-| **JavaScript Vanilla** | Animaciones, slider, interactividad |
+| **JavaScript Vanilla** | Animaciones, interactividad |
 
 ## 📱 Responsividad
 
