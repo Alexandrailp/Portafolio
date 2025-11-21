@@ -46,13 +46,7 @@ Texto destacado como:
 ### **4. Portafolio**
 Galería responsive de proyectos (con grid flexible).  
 - Slider centrado, con imágenes que mantienen su proporción y no se deforman en mobile.
-
-### **5. Contáctame**
-Sección minimalista con iconos FontAwesome:  
-- Email  
-- Teléfono  
-- Redes sociales  
-- Ubicación (opcional)
+- Sección minimalista con íconos obtenidos en FontAwesome
 
 ## 🧩 Tecnologías utilizadas
 
